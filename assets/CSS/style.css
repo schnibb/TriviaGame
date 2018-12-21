@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,700,900');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    background: #bde0da;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.setWidth {
+    max-width: 600px;
+    width: 100%;
+}
+
+.container {
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    color: #4b4b4b;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 5rem 0 3rem 0;
+    text-align: center;
+}
+
+#question {
+    color: #2D6E7E;
+    min-height: 66px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+
+.optnContainer {
+    position: relative;
+    align-items: stretch;
+    width: 100%;
+}
+
+.answer {
+    color: #F2F2F2;
+    background: #d32115;
+    flex-grow: 1;
+    min-height: 51px;
+    padding: 1rem;
+    letter-spacing: 2px;
+    margin-top: 3px;
+}
+
+.answer:hover {
+    cursor: pointer;
+}
+
+.score {
+    flex-direction: row;
+    align-items: stretch;
+    margin-top: 2rem;
+}
+
+.score p {
+    text-align: center;
+    padding: .8rem;
+    width: 50%;
+    color: white;
+    letter-spacing: 5px;
+}
+
+#gameScore {
+    background: #295F4E;
+}
+
+#gameTimer {
+    font-weight: 900;
+    background: #6DB193;
+}
+
+#gameStart {
+    padding: .8rem;
+    margin-top: 3px;
+    background: #ff4f02;
+    color: white;
+    text-align: center;
+}
+
+#gameStart:hover {
+    background: #c43b00;
+    cursor: pointer;
+}

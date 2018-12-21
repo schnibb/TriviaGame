@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Christmas Trivia Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+
+<body class="flex">
+    <h2>Christmas Trivia Game</h2>
+    <div class="container setWidth flex">
+        <p id="question"></p>
+        <div class="optnContainer flex">
+            <p id="answer0" class="answer"></p>
+            <p id="answer1" class="answer"></p>
+            <p id="answer2" class="answer"></p>
+            <p id="answer3" class="answer"></p>
+        </div>
+        <div class="correctAnswer">
+            <p id="correctAnswerText"></p>
+        </div>
+    </div>
+    <div class="score setWidth flex">
+        <p id="gameTimer">Time Remaining: <span id="timerText"></span></p>
+        <p id="gameScore">Score: <span id="gameScoreText"></span></p>
+    </div>
+    <p id="gameStart" class="setWidth">Start the Game</p>
+
+</body>
+
+</html>
