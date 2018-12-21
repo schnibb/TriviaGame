@@ -101,6 +101,7 @@ $(document).ready(function() {
 
     //funcion to show the game results.  
     function showGameResults() {
+        $("#gameStart").show();
         $("#correctAnswerText").empty();
         //reset the question number for a possible next game.
         questionNumber = 0;
@@ -132,6 +133,7 @@ $(document).ready(function() {
 
     //start the game.
     $("#gameStart").on("click", function() {
+        $("#gameStart").hide();
         addQuestionToDom();
     })
 
